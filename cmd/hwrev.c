@@ -22,7 +22,7 @@ int do_hwrev(cmd_tbl_t *cmdtp, int flag, int argc, char * const argv[])
 	/* RG351MP */
 	if (check_range(146, 186, hwrev_adc)) {
 		env_set("hwrev", "rg351mp");
-		env_set("dtb_name", "rk3326-rg351mp-linux.dtb");
+		env_set("dtb_name", "rg351mp-kernel.dtb");
 	}
 	/* RG351V */
 	else if (check_range(494, 534, hwrev_adc)) {
