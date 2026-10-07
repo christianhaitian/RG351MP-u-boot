@@ -61,6 +61,7 @@ dtb-$(CONFIG_ARCH_ROCKCHIP) += \
 	rg351v-uboot.dtb \
 	rg351mp-uboot.dtb \
 	a10mini-uboot.dtb \
+	a10miniv4-uboot.dtb \
 	g350-uboot.dtb
 dtb-$(CONFIG_ARCH_MESON) += \
 	meson-gxbb-odroidc2.dtb
